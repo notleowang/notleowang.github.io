@@ -1,0 +1,59 @@
+// Background Colour (yes i spell colour with a "u" because im canadian)
+$bg-colour: #FDFAF5;
+
+// Text Colours
+$text-primary-colour: #38220f;
+$text-secondary-colour: #634832; 
+$text-highlight-colour: #967259;
+// $text-highlight-colour-2: #DAC1AC;
+$text-green-colour: #68b170;
+$text-blue-colour: #71abd1;
+$text-red-colour: #d17171;
+
+body {
+    font-family: "Roboto Mono", sans-serif;
+    background-color: $bg-colour;
+    color: $text-primary-colour;
+    padding-bottom: 100px;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 550px;
+}
+
+.text-highlight-colour {
+    color: $text-highlight-colour;
+}
+
+.text-secondary-colour {
+    color: $text-secondary-colour;
+}
+
+.text-blue-colour {
+    color: $text-blue-colour;
+}
+
+.text-green-colour {
+    color: $text-green-colour;
+}
+
+.text-red-colour {
+    color: $text-red-colour;
+}
+
+h1 {
+    color: $text-secondary-colour;
+}
+
+h4 {
+    color: $text-secondary-colour;
+    margin: 0;
+}
+
+.fs-7 {
+    font-size: 12px;
+}

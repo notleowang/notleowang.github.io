@@ -1,0 +1,47 @@
+body {
+  font-family: "Roboto Mono", sans-serif;
+  background-color: #FDFAF5;
+  color: #38220f;
+  padding-bottom: 100px;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 550px;
+}
+
+.text-highlight-colour {
+  color: #967259;
+}
+
+.text-secondary-colour {
+  color: #634832;
+}
+
+.text-blue-colour {
+  color: #71abd1;
+}
+
+.text-green-colour {
+  color: #68b170;
+}
+
+.text-red-colour {
+  color: #d17171;
+}
+
+h1 {
+  color: #634832;
+}
+
+h4 {
+  color: #634832;
+  margin: 0;
+}
+
+.fs-7 {
+  font-size: 12px;
+}/*# sourceMappingURL=styles.css.map */
