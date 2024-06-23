@@ -10,8 +10,7 @@ p {
 }
 
 .container {
-  min-width: 479px;
-  max-width: 800px;
+  max-width: 550px;
 }
 
 .text-highlight-colour {
@@ -47,11 +46,36 @@ h4 {
   font-size: 12px;
 }
 
-@media (max-width: 508px) {
+.content-large {
+  display: none;
+}
+
+.content-small {
+  display: none;
+}
+
+.content-xsmall {
+  display: none;
+}
+
+@media (min-width: 509px) {
+  .content-large {
+    display: initial;
+  }
+}
+@media (max-width: 508px) and (min-width: 391px) {
+  .content-small {
+    display: initial;
+  }
   .shrink-text {
     font-size: 12px;
   }
-  .hide-text {
-    display: none;
+}
+@media (max-width: 390px) {
+  .content-xsmall {
+    display: initial;
+  }
+  .shrink-text {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=styles.css.map */
