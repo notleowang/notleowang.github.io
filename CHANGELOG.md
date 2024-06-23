@@ -4,6 +4,10 @@ All notable changes to this website will be documented here.
 
 Not following any standard format. This is more for just keeping a personal record of the changes I made.
 
+## 06-23-2024
+### Fixed
+- Fixed viewport responsiveness for better mobile experience.
+
 ## 06-22-2024
 ### Added
 - Added Hiking to hobbies.

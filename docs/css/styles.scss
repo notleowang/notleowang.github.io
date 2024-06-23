@@ -22,7 +22,8 @@ p {
 }
 
 .container {
-    max-width: 550px;
+    min-width: 479px;
+    max-width: 800px;
 }
 
 .text-highlight-colour {
@@ -56,4 +57,14 @@ h4 {
 
 .fs-7 {
     font-size: 12px;
+}
+
+@media (max-width: 508px) {
+    .shrink-text {
+        font-size: 12px;
+    }
+
+    .hide-text {
+        display: none;
+    }
 }
