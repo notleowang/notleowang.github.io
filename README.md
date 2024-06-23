@@ -1,15 +1,14 @@
 ## Portfolio
 Personal website to introduce myself.
 
-### Built With
 ![HTML][HTML-Badge]
 ![CSS][CSS-Badge]
 ![Bootstrap][Bootstrap-Badge]
 ![Sass][Sass-Badge]
 
-### Changelog
-06/22/2024 - Updated README.md  
-06/21/2024 - Coded website
+## Acknowledgements
+- [ImgShields](https://shields.io/) for the badges.
+- [SVGRepo](https://www.svgrepo.com/vectors/hiking/) and [Bootstrap Icons](https://icons.getbootstrap.com/) for icons.
 
 [HTML-Badge]: https://img.shields.io/badge/HTML-0f0f0f?style=for-the-badge&logo=Html5
 [CSS-Badge]: https://img.shields.io/badge/CSS-0f0f0f?style=for-the-badge&logo=css3&logoColor=1572B6
