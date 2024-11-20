@@ -4,6 +4,9 @@ All notable changes to this website will be documented here.
 
 Not following any standard format. This is more for just keeping a personal record of the changes I made.
 
+## 11-19-2024
+- Updated website style.
+
 ## 06-24-2024
 ### Added
 - Added AniMatch project.
