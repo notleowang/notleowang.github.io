@@ -1,8 +1,16 @@
 body {
-  font-family: "Roboto Mono", sans-serif;
-  background-color: #FDFAF5;
-  color: #38220f;
+  font-family: "Inter", sans-serif;
+  background-color: #1F1F1F;
+  color: #f3efef;
   padding-bottom: 100px;
+}
+
+.bg-primary-colour {
+  background-color: #363636;
+}
+
+.bg-secondary-colour {
+  background-color: #f3efef;
 }
 
 p {
@@ -14,11 +22,11 @@ p {
 }
 
 .text-highlight-colour {
-  color: #967259;
+  color: #cd9d7b;
 }
 
 .text-secondary-colour {
-  color: #634832;
+  color: #f3efef;
 }
 
 .text-blue-colour {
@@ -34,11 +42,11 @@ p {
 }
 
 h1 {
-  color: #634832;
+  color: #f3efef;
 }
 
 h4 {
-  color: #634832;
+  color: #f3efef;
   margin: 0;
 }
 
