@@ -1,0 +1,112 @@
+// Colours
+$bg-primary-colour: #111317;
+$bg-secondary-colour: #24272a;
+$text-primary-colour: #c9bebb;
+$text-secondary-colour: rgb(59, 63, 69);
+
+$brown-1: #8E5639;
+$brown-2: #AA633B;
+$brown-3: #CA733D;
+$brown-4: #D18B69;
+$brown-5: #D6A08B;
+
+$youtube-colour: #d64c4c;
+$twitch-colour: #b13ab5;
+$instagram-colour: #da6e97;
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    background-color: $bg-primary-colour;
+    color: $text-primary-colour;
+    margin-top: 100px;
+    padding-bottom: 200px;
+}
+
+p, h1, h3 {
+    margin: 0;
+}
+
+a {
+    color: $text-primary-colour;
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid $bg-secondary-colour;
+}
+
+.container {
+    max-width: 570px;
+    padding: 0 44px;
+}
+
+.project-section {
+    hr {
+        margin: 0;
+    }
+}
+
+.project-container {
+    margin: 0 -18px;
+    padding: 10px 18px;
+}
+
+.project-container:hover {
+    background-color: $bg-secondary-colour;
+    transition: all 0.2s ease-in;
+}
+
+.text-primary-colour {
+    color: $text-primary-colour;
+}
+
+.text-secondary-colour {
+    color: $brown-3;
+}
+
+.text-highlight-colour {
+    color: $brown-4;
+}
+
+.font-jetbrains-mono {
+    font-family: "JetBrains Mono", sans-serif;
+}
+
+.fs-7 {
+    font-size: 14px;
+}
+
+.badge {
+    color: $text-primary-colour;
+    background-color: #3d2d22;
+}
+
+.link-button:hover {
+    color: $brown-3;
+    transition: all 0.2s ease-in;
+}
+
+.youtube-button:hover {
+    color: $youtube-colour;
+    transition: all 0.2s ease-in;
+}
+
+.twitch-button:hover {
+    color: $twitch-colour;
+    transition: all 0.2s ease-in;
+}
+
+.instagram-button:hover {
+    color: $instagram-colour;
+    transition: all 0.2s ease-in;
+}
+
+.expand-button {
+    color: $text-secondary-colour;
+}
+
+.expand-button:hover {
+    color: $brown-3;
+    transition: all 0.2s ease-in;
+}

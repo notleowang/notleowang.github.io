@@ -1,0 +1,94 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  background-color: #111317;
+  color: #c9bebb;
+  margin-top: 100px;
+  padding-bottom: 200px;
+}
+
+p, h1, h3 {
+  margin: 0;
+}
+
+a {
+  color: #c9bebb;
+  text-decoration: none;
+}
+
+hr {
+  border: 1px solid #24272a;
+}
+
+.container {
+  max-width: 570px;
+  padding: 0 44px;
+}
+
+.project-section hr {
+  margin: 0;
+}
+
+.project-container {
+  margin: 0 -18px;
+  padding: 10px 18px;
+}
+
+.project-container:hover {
+  background-color: #24272a;
+  transition: all 0.2s ease-in;
+}
+
+.text-primary-colour {
+  color: #c9bebb;
+}
+
+.text-secondary-colour {
+  color: #CA733D;
+}
+
+.text-highlight-colour {
+  color: #D18B69;
+}
+
+.font-jetbrains-mono {
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+.fs-7 {
+  font-size: 14px;
+}
+
+.badge {
+  color: #c9bebb;
+  background-color: #3d2d22;
+}
+
+.link-button:hover {
+  color: #CA733D;
+  transition: all 0.2s ease-in;
+}
+
+.youtube-button:hover {
+  color: #d64c4c;
+  transition: all 0.2s ease-in;
+}
+
+.twitch-button:hover {
+  color: #b13ab5;
+  transition: all 0.2s ease-in;
+}
+
+.instagram-button:hover {
+  color: #da6e97;
+  transition: all 0.2s ease-in;
+}
+
+.expand-button {
+  color: rgb(59, 63, 69);
+}
+
+.expand-button:hover {
+  color: #CA733D;
+  transition: all 0.2s ease-in;
+}/*# sourceMappingURL=styles.css.map */
