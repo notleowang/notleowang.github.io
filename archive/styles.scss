@@ -1,0 +1,107 @@
+// Background Colours (yes i spell colour with a "u" because im canadian)
+$bg-colour: #1F1F1F;
+$bg-primary-colour: #363636;
+$bg-secondary-colour: #f3efef;
+
+// Text Colours
+$text-primary-colour: #f3efef;
+$text-secondary-colour: #f3efef; 
+$text-highlight-colour: #cd9d7b;
+// $text-highlight-colour-2: #DAC1AC;
+$text-green-colour: #68b170;
+$text-blue-colour: #71abd1;
+$text-red-colour: #d17171;
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: $bg-colour;
+    color: $text-primary-colour;
+    padding-bottom: 100px;
+}
+
+.bg-primary-colour {
+    background-color: $bg-primary-colour;
+}
+
+.bg-secondary-colour {
+    background-color: $bg-secondary-colour;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 550px;
+}
+
+.text-highlight-colour {
+    color: $text-highlight-colour;
+}
+
+.text-secondary-colour {
+    color: $text-secondary-colour;
+}
+
+.text-blue-colour {
+    color: $text-blue-colour;
+}
+
+.text-green-colour {
+    color: $text-green-colour;
+}
+
+.text-red-colour {
+    color: $text-red-colour;
+}
+
+h1 {
+    color: $text-secondary-colour;
+}
+
+h4 {
+    color: $text-secondary-colour;
+    margin: 0;
+}
+
+.fs-7 {
+    font-size: 12px;
+}
+
+.content-large {
+    display: none;
+}
+
+.content-small {
+    display: none;
+}
+
+.content-xsmall {
+    display: none;
+}
+
+@media (min-width: 509px) {
+    .content-large {
+        display: initial;
+    }
+}
+
+@media (max-width: 508px) and (min-width: 391px) {
+    .content-small {
+        display: initial;
+    }
+
+    .shrink-text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 390px) {
+    .content-xsmall {
+        display: initial;
+    }
+
+    .shrink-text {
+        font-size: 12px;
+    }
+}
