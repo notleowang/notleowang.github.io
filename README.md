@@ -11,7 +11,7 @@ Personal website to introduce myself.
 - [SVGRepo](https://www.svgrepo.com/vectors/hiking/) and [Bootstrap Icons](https://icons.getbootstrap.com/) for icons.
 
 [HTML-Badge]: https://img.shields.io/badge/HTML-0f0f0f?style=for-the-badge&logo=Html5
-[CSS-Badge]: https://img.shields.io/badge/CSS-0f0f0f?style=for-the-badge&logo=css3&logoColor=1572B6
+[CSS-Badge]: https://img.shields.io/badge/CSS-0f0f0f?style=for-the-badge&logo=css&logoColor=1572B6
 [Bootstrap-Badge]: https://img.shields.io/badge/Bootstrap-0f0f0f?style=for-the-badge&logo=bootstrap&logoColor=7952B3
 [Sass-Badge]: https://img.shields.io/badge/Sass-0f0f0f?style=for-the-badge&logo=sass&logoColor=CC6699
 <!---
