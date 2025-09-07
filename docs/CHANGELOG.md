@@ -4,6 +4,11 @@ All notable changes to this website will be documented here.
 
 Not following any standard format. This is more for just keeping a personal record of the changes I made.
 
+## 09-06-2025
+### Changed
+- Fresh website design.
+- File structure.
+
 ## 12-03-2024
 ### Added
 - leo-drinks-coffee links.
