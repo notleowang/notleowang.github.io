@@ -4,6 +4,13 @@ All notable changes to this website will be documented here.
 
 Not following any standard format. This is more for just keeping a personal record of the changes I made.
 
+## 09-08-2025
+### Added
+- Anime hobby.
+
+### Fixed
+- Behaviour on mobile devices.
+
 ## 09-06-2025
 ### Changed
 - Fresh website design.
@@ -40,5 +47,4 @@ Not following any standard format. This is more for just keeping a personal reco
 - Changed column size for UBC logo and cropped image.
 
 ## 06-21-2024
-
  - Published website.

@@ -13,6 +13,7 @@ $brown-5: #D6A08B;
 $youtube-colour: #d64c4c;
 $twitch-colour: #b13ab5;
 $instagram-colour: #da6e97;
+$anilist-colour: #6c88dc;
 
 body {
     font-family: "Fira Sans", sans-serif;
@@ -102,6 +103,11 @@ hr {
     transition: all 0.2s ease-in;
 }
 
+.anilist-button:hover {
+    color: $anilist-colour;
+    transition: all 0.2s ease-in;
+}
+
 .expand-button {
     color: $text-secondary-colour;
 }
@@ -109,4 +115,24 @@ hr {
 .expand-button:hover {
     color: $brown-3;
     transition: all 0.2s ease-in;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+@media (max-width: 485px) {
+    .mobile {
+        display: initial;
+    }
+}
+
+@media (min-width: 486px) {
+    .desktop {
+        display: initial;
+    }
 }

@@ -84,6 +84,11 @@ hr {
   transition: all 0.2s ease-in;
 }
 
+.anilist-button:hover {
+  color: #6c88dc;
+  transition: all 0.2s ease-in;
+}
+
 .expand-button {
   color: rgb(59, 63, 69);
 }
@@ -91,4 +96,23 @@ hr {
 .expand-button:hover {
   color: #CA733D;
   transition: all 0.2s ease-in;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: none;
+}
+
+@media (max-width: 485px) {
+  .mobile {
+    display: initial;
+  }
+}
+@media (min-width: 486px) {
+  .desktop {
+    display: initial;
+  }
 }/*# sourceMappingURL=styles.css.map */
